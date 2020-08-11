@@ -1,14 +1,78 @@
 <head>
-  <title>*QSproject</title>
+  <title>&#x3C;/> QSproject</title>
   <style>
+    @import 'https://fonts.googleapis.com/css?family=Poppins:200,300,300i,400,400i,500,500i,600,600i,700,700i';
+
+    *{
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+    }
+
     body {
-      background:black;
+      background: #151515;
+      background: radial-gradient(at center, #011717, #151515);
+      color: white;
+    }
+
+    #content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform:translate(-50%, -50%);
+    }
+
+    a {
+      text-decoration: none;
       color:white;
     }
+
+    .text {
+      font-family: Poppins;
+      font-size:50px;
+      animation: fadeIn ease 10s;
+      -webkit-animation: fadeIn ease 10s;
+    } 
+
+    @keyframes fadeIn {
+      0% {opacity:0;}
+      100% {opacity:1;}
+    }
+
+    @-moz-keyframes fadeIn {
+      0% {opacity:0;}
+      100% {opacity:1;}
+    }
+
+    @-webkit-keyframes fadeIn {
+      0% {opacity:0;}
+      100% {opacity:1;}
+    }
+
+    @-o-keyframes fadeIn {
+      0% {opacity:0;}
+      100% {opacity:1;}
+    }
+
+    @-ms-keyframes fadeIn {
+      0% {opacity:0;}
+      100% {opacity:1;}
+    } 
   </style>
 </head>
+
 <html>
   <body>
-    <b>QS</b>project 👀
+    <div id="content">
+      <div class="text">
+
+        <a href="#" class="title">&#x3C;/> <b>QS</b>project</a><br>
+        
+        <span style="font-size:10px;font-style:italic;float:right;">
+          <a href="http://discordapp.com/users/664535159751704605" target="_blank">© Qeysar</a>
+        </span> 
+
+      </div>
+    </div>
   </body>
 </html>
